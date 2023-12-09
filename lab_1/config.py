@@ -7,7 +7,7 @@ params = {'legend.fontsize': small,
           'figure.figsize': (20, 20),
           'axes.labelsize': large,
           'axes.titlesize': large,
-          'xtick.labelsize': 25,
+          'xtick.labelsize': 20,
           'ytick.labelsize': 40,
           'figure.titlesize': large}
 plt.rcParams.update(params)

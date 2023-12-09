@@ -1,13 +1,14 @@
 import matplotlib.pyplot as plt
 import pandas as pd
-import config
 
 
 def interval_variation_series(data, count):
     df = pd.Series(data)
     keys = df.unique()
     keys.sort()
-    d = df.groupby(pd.cut(df, range(min(data) - 1, max(data) + 1, count))).count()
+    d = df.groupby(pd.cut(df, list(map(lambda x: x / 100.0,
+                                  range(int(min(data) * 100) - 1, int(max(data) * 100) + 1,
+                                        int(count * 100)))))).count()
     print(d)
     d.plot(kind='bar', grid=True)
     plt.savefig("./img2.png")
