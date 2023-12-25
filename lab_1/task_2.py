@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import pandas as pd
+import lab_1.config
 
 
 def interval_variation_series(data, count):
