@@ -3521,7 +3521,6 @@ work_year,experience_level,employment_type,job_title,salary,salary_currency,sala
 2021,EX,FT,Head of Data,230000,USD,230000,RU,50,RU,L
 2021,EN,FT,Machine Learning Engineer,125000,USD,125000,US,100,US,S
 2021,SE,FT,Data Analytics Manager,120000,USD,120000,US,100,US,M
-2020,MI,FT,Research Scientist,450000,USD,450000,US,0,US,M
 2020,MI,FT,Data Analyst,41000,EUR,46759,FR,50,FR,L
 2020,MI,FT,Data Engineer,65000,EUR,74130,AT,50,AT,L
 2021,SE,FT,Data Science Engineer,159500,CAD,127221,CA,50,CA,L
