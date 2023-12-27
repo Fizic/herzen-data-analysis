@@ -5,13 +5,10 @@ from matplotlib import pyplot as plt
 
 rcParams['figure.figsize'] = 1920 / 100, 2400 / 100
 
-salaries = []
-with open('ds_salaries.csv', newline='', encoding='utf-8-sig') as csvfile:
-    reader = csv.DictReader(csvfile)
-    for row in reader:
-        salaries.append(int(row['salary_in_usd']))
-
-# Вариационный ряд
+salaries = [12, 6, 8, 6, 10, 11, 7, 10, 12, 8, 7, 7, 6, 7, 8, 6, 11, 9, 11,
+            9, 10, 11, 9, 10, 7, 8, 8, 8, 11, 9, 8, 7, 5, 9, 7, 7, 14, 11,
+            9, 8, 7, 4, 7, 5, 5, 10, 7, 7, 5, 8, 10, 10, 15, 10, 10, 13, 12,
+            11, 15, 6]
 salaries.sort()
 var = {}
 d = 444864 // 16
